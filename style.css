@@ -1,0 +1,31 @@
+.gamecontainer {
+  display:grid;
+  grid-template-columns: repeat(3,75px);
+  justify-content: center;
+  align-items: center;
+   
+}
+.cell{
+    width:75px;
+    height:75px;
+    border:2px solid black ;
+    font-size:50px ;
+    cursor:pointer;
+}
+
+#game{
+    margin-top: 8rem;
+    text-align: center;
+    font-family: "Permanent Marker",cursive;
+}
+button{
+    width:75px;
+    height:25px;
+    font-size:15px ;
+}
+.greentext{
+    color: rgb(34, 172, 34);
+}
+.redtext{
+    color: rgb(172, 34, 34);
+}
